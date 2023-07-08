@@ -6,14 +6,13 @@
     <artifactId>addressbook</artifactId>
     <packaging>war</packaging>
     <version>2.0</version>
-    <name>Vaadin Addressbook example</name>
-
-    <properties>
+    <name>Vaadin Addressbook example1</name>
+     
+<properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <vaadin.version>8.0.0.alpha2</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
-	
     </properties>
 
     <repositories>
