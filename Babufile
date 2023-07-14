@@ -3,7 +3,7 @@ pipeline {
     tools{
         maven 'M2_HOME'
     }
-stages{
+stages {
     stage('checkout the project from Github') {
       steps{
          git 'https://github.com/devopscbabu/DevOpsAddressBook.git'
